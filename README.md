@@ -38,20 +38,22 @@ So the main concept is
 
 While creating aws lambda give access of full control of dynamodb to it by creating a policy on iam aws
 
-
+![alt text](readmeimg/Picture1.png)
+![alt text](readmeimg/Picture2.png)
 
 
 1. Copy the server side code to aws lambda and add api gateway to it by following make sure the api gateway has required http methods as you implemented to aws lambda the link is generated copy and hold that api gateway link
 
-
+![alt text](readmeimg/Picture3.png)
 
 1. Now go to api gateway here make sure the cors configuration like this access origin methods and other 2 also configuration as your requirement but am giving access to everyone and every methods By this cors problem will be solved
 
 <https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-cors.html>
-
+![alt text](readmeimg/Picture4.png)
 
 1. Now create a dynanamodb on the aws dynamodb where create a key as your requirement here I am giving name that's enough now copy the table name and paste it on aws lambda code where there is some comment
 
+![alt text](readmeimg/Picture5.png)
 
 1. Now copy the api gate link and edit on the js code on client side code and now make sure the folder is designed like this and then now upload the code on s3 bucket
 
@@ -85,11 +87,12 @@ Policy :
 
 }
 
+![alt text](readmeimg/Picture6.png)
 
 1. That is the client side link of your website
 2. Now just click the link and enjoy
 
-
+![alt text](readmeimg/Picture7.png)
 
 Now you have generated the static website using aws lamba
 
